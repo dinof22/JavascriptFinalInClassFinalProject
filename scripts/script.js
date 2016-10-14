@@ -141,7 +141,9 @@ while (true) {
     };
     alert("wraith's health is " + wraith.health);
         character.health -= wraith.attack;
-        if (character.health <= 0) {break;}
+        if (character.health <= 0) {
+            alert("you are dead");
+            break;}
 
 
 }
